@@ -89,7 +89,7 @@ class User:
                 f"Fitness Level: {fitness_level}\n"
                 f"Weight Goal Progress: {weight_goal_progress}\n"
                 f"Exercise Suggestions: {exercise_suggestions}")
-    def view_fitness_summary(self):
+    def view_fitness_summary(self):   #replicated need to modify 
         total_calories = sum([workout._calories_burned for workout in self._workouts])
         total_steps = sum([metric.steps for metric in self._health_metrics])
         avg_heart_rate = (sum([metric.heart_rate for metric in self._health_metrics]) /
