@@ -42,7 +42,7 @@ The Fitness Tracker System is a Python-based program designed to help users moni
      - `calculate_bmi()`: Calculates and returns the user’s Body Mass Index (BMI) using their weight and height.
      - `get_fitness_summary()`: Provides an overview of all workouts and health metrics, including total calories burned, average heart rate, and step count for the week.
 
-### 4. **FitnessApp Class**
+### 4. **App Class**
    - **Attributes**:
      - `users` (list of User objects): A list of all users registered in the system.
    - **Methods**:
@@ -62,13 +62,13 @@ The Fitness Tracker System is a Python-based program designed to help users moni
      - **Weightlifting**: Calories burned = `duration * 16`.
      - **Other workouts**: Calories burned = `duration * 5`.
 
-### 2. **Progress Tracking**
+### 2. **Progress Tracking** #pending
    - The system tracks the user’s progress towards fitness goals such as:
      - **Daily Step Count**: Logs the number of steps taken each day.
      - **Calorie Burn Goal**: Tracks the number of calories burned based on workouts.
    - The fitness summary also shows the user’s progress towards weight goals (if set).
 
-### 3. **Weekly Summary**
+### 3. **Weekly Summary** #still pending 
    - A feature that provides users with a weekly summary of:
      - Total calories burned.
      - Average heart rate.
@@ -88,10 +88,10 @@ The Fitness Tracker System is a Python-based program designed to help users moni
      - A calorie burn target.
    - The system tracks the user’s progress and updates their fitness summary with how close they are to achieving these goals.
 
-### 6. **Notifications** (Optional Advanced Feature)
+### 6. **Notifications** (Optional Advanced Feature) #in future
    - Users receive notifications when they meet or fail to meet their fitness goals (e.g., reaching a daily step count or calorie burn goal).
 
-### 7. **Workout Plans** (Optional Advanced Feature)
+### 7. **Workout Plans** (Optional Advanced Feature) #in future
    - Users can create predefined workout plans that they can follow over a period of time, and the system tracks their progress.
 
 ---
