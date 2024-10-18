@@ -68,7 +68,19 @@ The Fitness Tracker System is a Python-based program designed to help users moni
      - **Calorie Burn Goal**: Tracks the number of calories burned based on workouts.
    - The fitness summary also shows the user’s progress towards weight goals (if set).
  To be added:
-### 3. **Weekly Summary** To be added:
+### 3. **Exercise Suggestions**
+   - Based on a user’s BMI and fitness data, the system provides exercise suggestions to help users improve their fitness levels. For example:
+     - **Underweight**: Suggests weight-gain exercises like weightlifting or strength training.
+     - **Overweight**: Suggests calorie-burning exercises like running or cycling.
+
+### 4. **Goal Setting** (Optional Advanced Feature)
+   - Users can set personal fitness goals, such as:
+     - A specific target weight to reach.
+     - A step goal for the day or week.
+     - A calorie burn target.
+   - The system tracks the user’s progress and updates their fitness summary with how close they are to achieving these goals.
+
+### 5. **Weekly Summary** To be added:
    - A feature that provides users with a weekly summary of:
      - Total calories burned.
      - Average heart rate.
@@ -76,24 +88,15 @@ The Fitness Tracker System is a Python-based program designed to help users moni
      - Sleep and hydration statistics.
      - Progress towards any fitness goals.
 
-### 4. **Exercise Suggestions**
-   - Based on a user’s BMI and fitness data, the system provides exercise suggestions to help users improve their fitness levels. For example:
-     - **Underweight**: Suggests weight-gain exercises like weightlifting or strength training.
-     - **Overweight**: Suggests calorie-burning exercises like running or cycling.
+## **Future plans**
 
-### 5. **Goal Setting** (Optional Advanced Feature)
-   - Users can set personal fitness goals, such as:
-     - A specific target weight to reach.
-     - A step goal for the day or week.
-     - A calorie burn target.
-   - The system tracks the user’s progress and updates their fitness summary with how close they are to achieving these goals.
-
-### 6. **Notifications** (Optional Advanced Feature) #in future
-   - Users receive notifications when they meet or fail to meet their fitness goals (e.g., reaching a daily step count or calorie burn goal).
-
-### 7. **Workout Plans** (Optional Advanced Feature) to be added 
+### 6. **Workout Plans** (Optional Advanced Feature) 
    - Users can create predefined workout plans that they can follow over a period of time, and the system tracks their progress.
 
+
+     
+### 7. **Notifications** (Upcoming Advanced Feature) 
+   - Users receive notifications when they meet or fail to meet their fitness goals (e.g., reaching a daily step count or calorie burn goal).
 ---
 
 ## Sample User Flow:
