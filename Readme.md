@@ -62,13 +62,13 @@ The Fitness Tracker System is a Python-based program designed to help users moni
      - **Weightlifting**: Calories burned = `duration * 16`.
      - **Other workouts**: Calories burned = `duration * 5`.
 
-### 2. **Progress Tracking** #pending
+### 2. **Progress Tracking** _pending_
    - The system tracks the user’s progress towards fitness goals such as:
      - **Daily Step Count**: Logs the number of steps taken each day.
      - **Calorie Burn Goal**: Tracks the number of calories burned based on workouts.
    - The fitness summary also shows the user’s progress towards weight goals (if set).
 
-### 3. **Weekly Summary** #still pending 
+### 3. **Weekly Summary** _still pending_
    - A feature that provides users with a weekly summary of:
      - Total calories burned.
      - Average heart rate.
@@ -91,7 +91,7 @@ The Fitness Tracker System is a Python-based program designed to help users moni
 ### 6. **Notifications** (Optional Advanced Feature) #in future
    - Users receive notifications when they meet or fail to meet their fitness goals (e.g., reaching a daily step count or calorie burn goal).
 
-### 7. **Workout Plans** (Optional Advanced Feature) #in future
+### 7. **Workout Plans** (Optional Advanced Feature) _in future_
    - Users can create predefined workout plans that they can follow over a period of time, and the system tracks their progress.
 
 ---
